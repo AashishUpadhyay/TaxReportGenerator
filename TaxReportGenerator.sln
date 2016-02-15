@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxReportGenerator", "TaxReportGenerator\TaxReportGenerator.csproj", "{EE9904B8-409B-43AB-8EB1-8389EBAA97B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{6E0977C8-A18E-4442-8902-EE6CC6FFF23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{1CA477A0-A14D-42DF-B8C7-F4FEB69FC137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{D5D55EB0-EA55-454E-B544-663D3B0D1C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A1E56C55-4C42-492D-881C-E7A98E44DEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{6F4257FF-6D37-41D0-B8AB-F69292CFC6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{2BEDC558-540F-4EB8-BF6D-C9394F75C1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{9F34DDBB-D854-40E4-BE6B-9B3BE5221DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE9904B8-409B-43AB-8EB1-8389EBAA97B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9904B8-409B-43AB-8EB1-8389EBAA97B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9904B8-409B-43AB-8EB1-8389EBAA97B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9904B8-409B-43AB-8EB1-8389EBAA97B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA477A0-A14D-42DF-B8C7-F4FEB69FC137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA477A0-A14D-42DF-B8C7-F4FEB69FC137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA477A0-A14D-42DF-B8C7-F4FEB69FC137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA477A0-A14D-42DF-B8C7-F4FEB69FC137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D55EB0-EA55-454E-B544-663D3B0D1C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D55EB0-EA55-454E-B544-663D3B0D1C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D55EB0-EA55-454E-B544-663D3B0D1C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D55EB0-EA55-454E-B544-663D3B0D1C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E56C55-4C42-492D-881C-E7A98E44DEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E56C55-4C42-492D-881C-E7A98E44DEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E56C55-4C42-492D-881C-E7A98E44DEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E56C55-4C42-492D-881C-E7A98E44DEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4257FF-6D37-41D0-B8AB-F69292CFC6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4257FF-6D37-41D0-B8AB-F69292CFC6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4257FF-6D37-41D0-B8AB-F69292CFC6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4257FF-6D37-41D0-B8AB-F69292CFC6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEDC558-540F-4EB8-BF6D-C9394F75C1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEDC558-540F-4EB8-BF6D-C9394F75C1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEDC558-540F-4EB8-BF6D-C9394F75C1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEDC558-540F-4EB8-BF6D-C9394F75C1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F34DDBB-D854-40E4-BE6B-9B3BE5221DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F34DDBB-D854-40E4-BE6B-9B3BE5221DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F34DDBB-D854-40E4-BE6B-9B3BE5221DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F34DDBB-D854-40E4-BE6B-9B3BE5221DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CA477A0-A14D-42DF-B8C7-F4FEB69FC137} = {6E0977C8-A18E-4442-8902-EE6CC6FFF23C}
+		{D5D55EB0-EA55-454E-B544-663D3B0D1C5E} = {6E0977C8-A18E-4442-8902-EE6CC6FFF23C}
+		{A1E56C55-4C42-492D-881C-E7A98E44DEAB} = {6E0977C8-A18E-4442-8902-EE6CC6FFF23C}
+		{6F4257FF-6D37-41D0-B8AB-F69292CFC6EF} = {6E0977C8-A18E-4442-8902-EE6CC6FFF23C}
+		{2BEDC558-540F-4EB8-BF6D-C9394F75C1CE} = {6E0977C8-A18E-4442-8902-EE6CC6FFF23C}
+		{9F34DDBB-D854-40E4-BE6B-9B3BE5221DB4} = {6E0977C8-A18E-4442-8902-EE6CC6FFF23C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://aashishupadhyay.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Core\\Core.csproj
+		SccProjectTopLevelParentUniqueName1 = TaxReportGenerator.sln
+		SccProjectName1 = Core
+		SccLocalPath1 = Core
+		SccProjectUniqueName2 = Services\\Services.csproj
+		SccProjectTopLevelParentUniqueName2 = TaxReportGenerator.sln
+		SccProjectName2 = Services
+		SccLocalPath2 = Services
+		SccProjectUniqueName3 = TaxReportGenerator\\TaxReportGenerator.csproj
+		SccProjectName3 = TaxReportGenerator
+		SccLocalPath3 = TaxReportGenerator
+		SccProjectUniqueName4 = Tests\\Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = TaxReportGenerator.sln
+		SccProjectName4 = Tests
+		SccLocalPath4 = Tests
+		SccProjectUniqueName5 = Factory\\Factory.csproj
+		SccProjectTopLevelParentUniqueName5 = TaxReportGenerator.sln
+		SccProjectName5 = Factory
+		SccLocalPath5 = Factory
+		SccProjectUniqueName6 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName6 = TaxReportGenerator.sln
+		SccProjectName6 = Domain
+		SccLocalPath6 = Domain
+		SccProjectUniqueName7 = DataObjects\\DataObjects.csproj
+		SccProjectTopLevelParentUniqueName7 = TaxReportGenerator.sln
+		SccProjectName7 = DataObjects
+		SccLocalPath7 = DataObjects
+	EndGlobalSection
+EndGlobal

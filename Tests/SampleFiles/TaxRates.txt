@@ -1,0 +1,16 @@
+[{
+	"Taxtype":"FRT",
+	"Name":"Foreign Remittance Tax",
+	"Description":"5% of the invoice amount is to be paid to the government by the company as FRT for international clients - rounded up to an integer",
+	"Rate":".05"
+},{
+	"Taxtype":"ST",
+	"Name":"Service Tax",
+	"Description":"10% of the invoice amount is to be paid to the government by the company as ST for domestic clients - rounded up to an integer.",
+	"Rate":".1"
+},{
+	"Taxtype":"EC",
+	"Name":"Education Cess",
+	"Description":"3% of the applicable ST is to be paid to the government by the company as EC for domestic clients - rounded up to an integer.",
+	"Rate":".03"
+}]

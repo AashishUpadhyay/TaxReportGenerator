@@ -1,0 +1,7 @@
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\bin\Debug\Core.dll
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\bin\Debug\Core.pdb
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\obj\Debug\Core.dll
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\obj\Debug\Core.pdb
+C:\Users\Aashish Upadhyay\documents\visual studio 2015\Projects\TaxReportGenerator\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
